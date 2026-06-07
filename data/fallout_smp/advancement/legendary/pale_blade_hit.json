@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:player_hurt_entity"
+		}
+	},
+	"requirements": [
+		[
+			"hit"
+		]
+	],
+	"rewards": {
+		"function": "fallout_smp:legendary/pale_blade/on_hit"
+	}
+}

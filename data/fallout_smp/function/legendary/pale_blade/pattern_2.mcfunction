@@ -1,0 +1,37 @@
+#> fallout_smp:legendary/pale_blade/pattern_2
+
+execute positioned ^-1.2600 ^0.0800 ^-0.4200 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^-1.1859 ^0.0813 ^-0.3589 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^-1.1118 ^0.0823 ^-0.3015 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^-1.0376 ^0.0830 ^-0.2478 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_1
+execute positioned ^-0.9635 ^0.0834 ^-0.1979 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^-0.8894 ^0.0835 ^-0.1516 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_2
+execute positioned ^-0.8153 ^0.0832 ^-0.1090 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^-0.7412 ^0.0827 ^-0.0701 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^-0.6671 ^0.0818 ^-0.0349 run function fallout_smp:legendary/pale_blade/slash_particle
+execute positioned ^-0.5929 ^0.0806 ^-0.0035 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_1
+execute positioned ^-0.5188 ^0.0791 ^0.0243 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^-0.4447 ^0.0773 ^0.0484 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^-0.3706 ^0.0752 ^0.0687 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_2
+execute positioned ^-0.2965 ^0.0728 ^0.0854 run function fallout_smp:legendary/pale_blade/slash_particle
+execute positioned ^-0.2224 ^0.0701 ^0.0983 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^-0.1482 ^0.0670 ^0.1076 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^-0.0741 ^0.0637 ^0.1131 run function fallout_smp:legendary/pale_blade/slash_particle
+execute positioned ^0.0000 ^0.0600 ^0.1150 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^0.0741 ^0.0560 ^0.1131 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^0.1482 ^0.0517 ^0.1076 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_1
+execute positioned ^0.2224 ^0.0471 ^0.0983 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^0.2965 ^0.0422 ^0.0854 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_2
+execute positioned ^0.3706 ^0.0370 ^0.0687 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^0.4447 ^0.0315 ^0.0484 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^0.5188 ^0.0256 ^0.0243 run function fallout_smp:legendary/pale_blade/slash_particle
+execute positioned ^0.5929 ^0.0194 ^-0.0035 run function fallout_smp:legendary/pale_blade/slash_particle
+execute positioned ^0.6671 ^0.0130 ^-0.0349 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^0.7412 ^0.0062 ^-0.0701 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^0.8153 ^-0.0009 ^-0.1090 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_1
+execute positioned ^0.8894 ^-0.0083 ^-0.1516 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^0.9635 ^-0.0160 ^-0.1979 run function fallout_smp:legendary/pale_blade/slash_particle_glint
+execute positioned ^1.0376 ^-0.0240 ^-0.2478 run function fallout_smp:legendary/pale_blade/slash_particle_spark_delay_2
+execute positioned ^1.1118 ^-0.0324 ^-0.3015 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^1.1859 ^-0.0410 ^-0.3589 run function fallout_smp:legendary/pale_blade/slash_particle_ominous
+execute positioned ^1.2600 ^-0.0500 ^-0.4200 run function fallout_smp:legendary/pale_blade/slash_particle_glint

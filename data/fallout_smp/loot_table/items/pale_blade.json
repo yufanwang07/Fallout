@@ -1,0 +1,83 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"text": "Pale Blade",
+									"bold": true,
+									"italic": false,
+									"color": "white"
+								},
+								"minecraft:lore": [
+									{
+										"text": " ",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"text": "A silent edge that leaves a moon-bright scar.",
+										"italic": true,
+										"color": "gray"
+									},
+									{
+										"text": " - Damage scaling with Sweeping Edge enchantment.",
+										"italic": false,
+										"color": "dark_aqua"
+									},
+									{
+										"text": " - Missed / crit hits will perform a sweep attack.",
+										"italic": false,
+										"color": "dark_aqua"
+									}
+								],
+								"minecraft:attribute_modifiers": [
+									{
+										"id": "minecraft:base_attack_damage",
+										"type": "minecraft:attack_damage",
+										"amount": 7.0,
+										"operation": "add_value",
+										"slot": "mainhand"
+									},
+									{
+										"id": "minecraft:base_attack_speed",
+										"type": "minecraft:attack_speed",
+										"amount": -2.4,
+										"operation": "add_value",
+										"slot": "mainhand"
+									},
+									{
+										"id": "fallout_smp:pale_blade_range",
+										"type": "minecraft:entity_interaction_range",
+										"amount": 0.7,
+										"operation": "add_value",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:custom_data": {
+									"fallout_smp": {
+										"legendary_weapon": "pale_blade"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sweeping_edge": 1
+							},
+							"add": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
