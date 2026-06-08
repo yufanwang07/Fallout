@@ -1,6 +1,6 @@
 #> fallout_smp:effects/impact
 
-particle minecraft:flash ~ ~1 ~ 0 0 0 0 1 force
+particle minecraft:flash{color:2147483647} ~ ~1 ~ 0 0 0 0 1 force
 particle minecraft:explosion_emitter ~ ~0.2 ~ 0 0 0 0 1 force
 function fallout_smp:effects/meteor_shower_1
 function fallout_smp:effects/meteor_shower_2

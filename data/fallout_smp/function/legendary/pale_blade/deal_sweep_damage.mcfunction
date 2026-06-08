@@ -2,7 +2,7 @@
 
 tag @s add dep_pale_damage_target
 function fallout_smp:legendary/pale_blade/apply_short_glow
-execute at @s positioned ~ ~0.05 ~ run particle minecraft:flash ~ ~ ~ 0 0 0 0 1 force
+execute at @s positioned ~ ~0.05 ~ run particle minecraft:flash{color:2147483647} ~ ~ ~ 0.08 0.08 0.08 0.02 6 force
 execute at @s run playsound minecraft:block.amethyst_cluster.break master @a[distance=..24] ~ ~ ~ 2.5 0.9
 execute if entity @a[tag=dep_pale_sweep_owner,tag=!dep_pale_miss_sweep,limit=1] at @s positioned ~ ~1.50 ~ run function fallout_smp:legendary/pale_blade/render_sweep_hit_crit
 execute if entity @a[tag=dep_pale_sweep_owner,tag=dep_pale_miss_sweep,limit=1] at @s positioned ~ ~1.50 ~ run function fallout_smp:legendary/pale_blade/render_sweep_hit

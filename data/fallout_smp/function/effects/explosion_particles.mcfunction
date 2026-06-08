@@ -1,7 +1,7 @@
 #> fallout_smp:effects/explosion_particles
 
 particle minecraft:explosion ~ ~1 ~ 2 2 2 0 5 force
-particle minecraft:flash ~ ~1 ~ 6 6 6 0 20 force
+particle minecraft:flash{color:2147483647} ~ ~1 ~ 6 6 6 0.05 20 force
 particle minecraft:flame ~ ~1 ~ 2 2 2 0.05 30 force
 particle minecraft:lava ~ ~1 ~ 2 2 2 0.05 6 force
 particle minecraft:large_smoke ~ ~1 ~ 2 2 2 0.05 6 force
