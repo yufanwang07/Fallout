@@ -1,10 +1,6 @@
 {
 	"pack": {
 		"pack_format": 94,
-		"supported_formats": {
-			"min_inclusive": 94,
-			"max_inclusive": 94
-		},
 		"min_format": [94, 1],
 		"max_format": [94, 1],
 		"description": "Fallout by SkyeNXT"

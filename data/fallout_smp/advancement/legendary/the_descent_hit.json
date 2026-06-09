@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:player_hurt_entity"
+		}
+	},
+	"requirements": [
+		[
+			"hit"
+		]
+	],
+	"rewards": {
+		"function": "fallout_smp:legendary/the_descent/on_hit"
+	}
+}

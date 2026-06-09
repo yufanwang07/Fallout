@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"text": "The Descent",
+									"bold": true,
+									"italic": false,
+									"color": "dark_gray"
+								},
+								"minecraft:lore": [
+									{
+										"text": " ",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"text": "The fall remembers. The ground answers.",
+										"italic": true,
+										"color": "gray"
+									},
+									{
+										"text": " - After falling over 5 blocks, strike to smash.",
+										"italic": false,
+										"color": "dark_gray"
+									},
+									{
+										"text": " - Deals falling impact damage in a large area.",
+										"italic": false,
+										"color": "dark_gray"
+									},
+									{
+										"text": " - Rebounds skyward after a successful descent.",
+										"italic": false,
+										"color": "dark_gray"
+									}
+								],
+								"minecraft:unbreakable": {
+									"show_in_tooltip": false
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"id": "minecraft:base_attack_damage",
+										"type": "minecraft:attack_damage",
+										"amount": 7.0,
+										"operation": "add_value",
+										"slot": "mainhand"
+									},
+									{
+										"id": "minecraft:base_attack_speed",
+										"type": "minecraft:attack_speed",
+										"amount": -2.4,
+										"operation": "add_value",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:custom_data": {
+									"fallout_smp": {
+										"legendary_weapon": "the_descent"
+									}
+								}
+								}
+							}
+						]
+				}
+			]
+		}
+	]
+}
