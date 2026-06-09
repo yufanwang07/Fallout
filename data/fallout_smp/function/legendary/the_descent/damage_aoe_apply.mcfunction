@@ -1,6 +1,6 @@
 #> fallout_smp:legendary/the_descent/damage_aoe_apply
 
-tellraw @a[tag=convention.debug] {"text":"[The Descent] aoe_damage","color":"gray"}
+tellraw @a[tag=convention.debug] [{"text":"[The Descent] aoe_damage score=","color":"gray"},{"score":{"name":"@a[tag=dep_descent_attacker,sort=nearest,limit=1]","objective":"dep.descent_aoe"}}]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_aoe matches 150..199 run damage @s 1.5 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_aoe matches 200..249 run damage @s 2 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_aoe matches 250..299 run damage @s 2.5 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]

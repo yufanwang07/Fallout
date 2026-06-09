@@ -28,7 +28,7 @@
 										"color": "gray"
 									},
 									{
-										"text": " - After falling over 5 blocks, strike to smash.",
+										"text": " - After falling at least 3 blocks, strike to smash.",
 										"italic": false,
 										"color": "dark_gray"
 									},

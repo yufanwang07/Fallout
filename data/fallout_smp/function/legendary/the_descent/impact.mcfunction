@@ -14,6 +14,7 @@ execute if score @s dep.descent_main matches 1.. unless entity @e[tag=dep_descen
 execute if score @s dep.descent_aoe matches 1.. as @e[tag=dep_descent_aoe_target] run function fallout_smp:legendary/the_descent/damage_aoe
 execute if score @s dep.descent_main matches 1.. as @e[tag=dep_descent_main,limit=1] run function fallout_smp:legendary/the_descent/damage_main
 
-tag @e[tag=dep_descent_aoe_target] remove dep_descent_aoe_target
+execute unless entity @s[tag=dep_descent_rebounded] unless entity @s[tag=dep_descent_rebound_lock] run tellraw @a[tag=convention.debug] {"text":"[The Descent] rebound_fallback","color":"dark_gray"}
+execute unless entity @s[tag=dep_descent_rebounded] unless entity @s[tag=dep_descent_rebound_lock] run function fallout_smp:legendary/the_descent/launch_attacker_fallback
 
-function fallout_smp:legendary/the_descent/launch_attacker
+tag @e[tag=dep_descent_aoe_target] remove dep_descent_aoe_target

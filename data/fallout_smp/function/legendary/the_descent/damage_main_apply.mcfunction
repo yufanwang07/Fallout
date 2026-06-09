@@ -1,6 +1,6 @@
 #> fallout_smp:legendary/the_descent/damage_main_apply
 
-tellraw @a[tag=convention.debug] {"text":"[The Descent] main_damage","color":"gray"}
+tellraw @a[tag=convention.debug] [{"text":"[The Descent] main_damage score=","color":"gray"},{"score":{"name":"@a[tag=dep_descent_attacker,sort=nearest,limit=1]","objective":"dep.descent_main"}}]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_main matches 50..99 run damage @s 0.5 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_main matches 100..149 run damage @s 1 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]
 $execute if score @a[tag=dep_descent_attacker,sort=nearest,limit=1] dep.descent_main matches 150..199 run damage @s 1.5 $(type) by @a[tag=dep_descent_attacker,sort=nearest,limit=1]

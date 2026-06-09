@@ -1,9 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		{
-			"id": "fallout_smp:descent",
-			"required": false
-		}
+		"minecraft:mace_smash"
 	]
 }

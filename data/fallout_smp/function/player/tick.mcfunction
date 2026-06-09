@@ -29,7 +29,8 @@ scoreboard players set @s dep.descent_fall_seen 0
 execute if predicate fallout_smp:legendary/the_descent_airborne if score @s dep.descent_dy matches 1.. run scoreboard players operation @s dep.descent_fall_seen = @s dep.descent_dy
 execute if predicate fallout_smp:legendary/the_descent_airborne if score @s dep.descent_dy matches 1.. run scoreboard players operation @s dep.descent_fall_memory += @s dep.descent_dy
 execute if predicate fallout_smp:legendary/the_descent_airborne if score @s dep.descent_fall_memory matches 1.. run scoreboard players set @s dep.descent_fall_timer 12
-execute unless predicate fallout_smp:legendary/the_descent_airborne if score @s dep.descent_fall_timer matches 1.. run scoreboard players remove @s dep.descent_fall_timer 1
+execute unless predicate fallout_smp:legendary/the_descent_airborne run tag @s remove dep_descent_rebound_lock
+execute unless predicate fallout_smp:legendary/the_descent_airborne run scoreboard players set @s dep.descent_fall_timer 0
 execute if score @s dep.descent_fall_timer matches 0 run scoreboard players set @s dep.descent_fall_memory 0
 scoreboard players operation @s dep.descent_prev_y = @s dep.descent_y
 scoreboard players add @s dep.pale_chain 1
