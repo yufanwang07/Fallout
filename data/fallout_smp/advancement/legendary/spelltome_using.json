@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"using": {
+			"trigger": "minecraft:using_item"
+		}
+	},
+	"requirements": [
+		[
+			"using"
+		]
+	],
+	"rewards": {
+		"function": "fallout_smp:legendary/spelltome/charge_tick"
+	}
+}

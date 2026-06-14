@@ -39,6 +39,15 @@ scoreboard objectives add dep.descent_rebound_y dummy
 scoreboard objectives add dep.descent_vision_timer dummy
 scoreboard objectives add dep.descent_dark_timer dummy
 scoreboard objectives add dep.descent_resist_timer dummy
+scoreboard objectives add dep.tome_cd dummy
+scoreboard objectives add dep.tome_sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add dep.tome_state dummy
+scoreboard objectives add dep.tome_ray dummy
+scoreboard objectives add dep.tome_storm_time dummy
+scoreboard objectives add dep.tome_storm_tick dummy
+scoreboard objectives add dep.tome_charge dummy
+scoreboard objectives add dep.tome_using dummy
+scoreboard objectives add dep.tome_theme dummy
 
 scoreboard players set #dep.total_time dep.config 12000
 scoreboard players set #dep.warn_time dep.config 300

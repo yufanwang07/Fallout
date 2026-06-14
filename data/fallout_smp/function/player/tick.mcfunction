@@ -34,7 +34,8 @@ execute unless predicate fallout_smp:legendary/the_descent_airborne run scoreboa
 execute if score @s dep.descent_fall_timer matches 0 run scoreboard players set @s dep.descent_fall_memory 0
 scoreboard players operation @s dep.descent_prev_y = @s dep.descent_y
 scoreboard players add @s dep.pale_chain 1
-execute if score @s dep.player_id matches 0 run function fallout_smp:legendary/pale_blade/assign_player_id
+execute unless score @s dep.player_id matches 1.. run function fallout_smp:legendary/pale_blade/assign_player_id
 function fallout_smp:legendary/pale_blade/player_tick
+execute at @s run function fallout_smp:legendary/spelltome/player_tick
 
 scoreboard players operation @s dep.death_seen = @s dep.death

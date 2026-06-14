@@ -2,6 +2,8 @@
 
 function fallout_smp:egg/item_tick
 execute as @e[type=marker,tag=dep_dragon_egg_effect] at @s run function fallout_smp:effects/tick
+execute as @e[type=area_effect_cloud,tag=dep_tome_burst_projectile] at @s run function fallout_smp:legendary/spelltome/burst_projectile_tick
+execute as @e[type=area_effect_cloud,tag=dep_tome_storm_projectile] at @s run function fallout_smp:legendary/spelltome/storm_projectile_tick
 execute as @e[type=marker,tag=dep_pale_spark] at @s run function fallout_smp:legendary/pale_blade/delayed_spark_tick
 execute as @e[type=interaction,tag=dep_pale_sensor] at @s run function fallout_smp:legendary/pale_blade/sensor_tick
 execute as @e[tag=dep_pale_short_glow] at @s run function fallout_smp:legendary/pale_blade/short_glow_tick
