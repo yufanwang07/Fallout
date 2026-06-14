@@ -1,6 +1,6 @@
 # Fallout Legendary Weapons
 
-This is a work-in-progress standalone legendary weapons pack for Fallout SMP, a private invite-only Minecraft server, inspired by the legendary weapons from Altar SMP and Hoplite.
+This is a work-in-progress standalone legendary weapons pack for Fallout SMP, an upcoming private invite-only Minecraft server, inspired by the legendary weapons from Altar SMP and Hoplite.
 
 ![description of the image](Banner.png)
 
